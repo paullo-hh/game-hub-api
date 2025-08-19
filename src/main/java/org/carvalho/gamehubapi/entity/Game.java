@@ -1,4 +1,4 @@
-package org.carvalho.gamehubapi.entities;
+package org.carvalho.gamehubapi.entity;
 
 import jakarta.persistence.*;
 
@@ -12,15 +12,18 @@ public class Game {
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long Id;
   private String title;
+
   @Column(name = "game_year")
   private Integer year;
   private String genre;
   private String platforms;
   private Double score;
   private String imgUrl;
+
+  @Column(columnDefinition = "TEXT")
   private String shortDescription;
 
-  @Column(length = 500)
+  @Column(columnDefinition = "TEXT")
   private String longDescription;
 
   public Game() {
