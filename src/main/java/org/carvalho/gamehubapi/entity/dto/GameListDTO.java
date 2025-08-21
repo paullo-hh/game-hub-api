@@ -1,6 +1,5 @@
 package org.carvalho.gamehubapi.entity.dto;
 
-import org.carvalho.gamehubapi.entity.Game;
 import org.carvalho.gamehubapi.entity.GameList;
 
 public class GameListDTO {
