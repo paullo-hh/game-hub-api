@@ -1,6 +1,7 @@
 package org.carvalho.gamehubapi.entity.dto;
 
 import org.carvalho.gamehubapi.entity.Game;
+
 import org.springframework.beans.BeanUtils;
 
 public class GameDTO {

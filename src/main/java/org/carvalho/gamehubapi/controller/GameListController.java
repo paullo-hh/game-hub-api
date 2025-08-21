@@ -2,14 +2,11 @@ package org.carvalho.gamehubapi.controller;
 
 import org.carvalho.gamehubapi.entity.dto.GameListDTO;
 import org.carvalho.gamehubapi.entity.dto.GameMinDTO;
-import org.carvalho.gamehubapi.projection.GameMinProjection;
 import org.carvalho.gamehubapi.service.GameListService;
 import org.carvalho.gamehubapi.service.GameService;
+
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
